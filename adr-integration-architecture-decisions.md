@@ -7,7 +7,7 @@ Draft
 
 Context
 -------
-Começando por microsserviços que está em maior evidência na composição de novas aplicações, como também ao reescrever parte das aplicação legada (monolito), tornando-as num conjunto de microsserviços. Primeiramente, sabemos que os microsserviços são uma arquitetura de aplicação, não uma arquitetura de integração. No entanto, existem dois cenários em torno de microsserviços em que precisamos considerar a conectividade.
+Começando por microsserviços que está em maior evidência na composição de novas aplicações, como também ao reescrever parte de uma aplicação legada (monolito) tornando-as num conjunto de microsserviços. Primeiramente, sabemos que os microsserviços são uma arquitetura de aplicação, não uma arquitetura de integração. No entanto, existem dois cenários em torno de microsserviços em que precisamos considerar a conectividade.
 
 Decision
 --------
