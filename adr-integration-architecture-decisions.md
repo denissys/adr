@@ -12,14 +12,14 @@ Começando por microsserviços que está em maior evidência na composição de 
 Decision
 --------
 
-Cenário 1. Conectividade interna da aplicação de microsserviço (Call-Method)
+*Cenário 1. Conectividade interna da aplicação de microsserviço (Call-Method)*
 
-Na arquitetura de microsserviço, teremos vários microsserviços trocando dados para compor a aplicação. Esses microsserviços precisam se comunicar uns aos outros. 
+  Na arquitetura de microsserviço, teremos vários microsserviços trocando dados para compor a aplicação. Esses microsserviços precisam se comunicar uns aos outros. 
   - Em aplicação de silo, isso seria equivalente a chamar sub-rotinas. Não há necessidade de introduzir uma camada de API ou da aplicação de política para garantir a segurança neste cenário. A conectividade direta entre os microsserviços é tudo o que é necessário.
   
-Cenário 2. Conectividade entre microsserviços separados
+*Cenário 2. Conectividade entre microsserviços separados*
 
-Com várias aplicações de microsserviço separados que precisam chamar uns aos outros. Nesse caso, adicionar APIs e um Gateway para gerenciar essa conectividade e fornecer a governança e políticas de segurança, o Gateway deve fornecer a conectividade entre microsserviços e aplicações de front-end. O Gateway separa a responsabilidade de governança da aplicação de microserviço, além de ter a responsabilida de garantir as políticas de segurança dos microserviços para cada consumer.
+  Com várias aplicações de microsserviço separados que precisam chamar uns aos outros. Nesse caso, adicionar APIs e um Gateway para gerenciar essa conectividade e fornecer a governança e políticas de segurança, o Gateway deve fornecer a conectividade entre microsserviços e aplicações de front-end. O Gateway separa a responsabilidade de governança da aplicação de microserviço, além de ter a responsabilida de garantir as políticas de segurança dos microserviços para cada consumer.
 
 Consequences
 ------------
