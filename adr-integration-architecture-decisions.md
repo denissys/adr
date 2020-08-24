@@ -25,4 +25,4 @@ Consequences
 ------------
 Ao utilizar a arquitetura de *Conectividade entre microsserviços separados (Cenário 2)* sem a utilização de um Gateway, isso implica em:
   - Excesso de responsabilidade na arquiteutra de aplicação do microserviço, pois ele deverá garantir as políticas de segurança e de governança dos consumers, tornando o microserviço com excesso de responsabilidade em sua arquitetura de aplicação;
-  - Se o microserviço for exposto como API de forma publica (como para o consumo de uma aplicação front-end), o não uso de um Gateway implica em falhas de segurança como falta de definição de autentiticação (ou autenticação fraca / sem governança), falta de governança sobre os consumers (um microserviço pode servir um ou mais consumers).
+  - Se o microserviço for exposto como API de forma pública (como para o consumo de uma aplicação front-end), o não uso de um Gateway implica em falhas de segurança como falta de definição de autentiticação (ou autenticação fraca / sem governança), falta de governança sobre os consumers (um microserviço pode servir um ou mais consumers).
