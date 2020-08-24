@@ -19,7 +19,7 @@ Decision
   
 *Cenário 2. Conectividade entre microsserviços separados*
 
-  Com várias aplicações de microsserviço separados que precisam chamar uns aos outros. Nesse caso, adicionar APIs e um Gateway para gerenciar essa conectividade e fornecer a governança e políticas de segurança, o Gateway deve fornecer a conectividade entre microsserviços e aplicações de front-end. O Gateway separa a responsabilidade de governança da aplicação de microserviço, além de ter a responsabilida de garantir as políticas de segurança dos microserviços para cada consumer.
+  Com várias aplicações de microsserviço separados que precisam chamar uns aos outros. Nesse caso, adicionar APIs e um Gateway para gerenciar essa conectividade e fornecer governança e políticas de segurança, o Gateway deve fornecer a conectividade entre microsserviços, como também para aplicações de front-end. O Gateway é responsável por separar a camada de responsabilidade que realiza a governança e a segurança dos microserviços.
 
 Consequences
 ------------
